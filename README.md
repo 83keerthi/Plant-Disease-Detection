@@ -97,54 +97,52 @@ The project uses the PlantVillage dataset.
 ## 🧠 Model
 
 A Convolutional Neural Network (CNN) was developed for plant disease classification.
-
 ### Model Architecture
 
-```text
 Input Image
-     ↓
+↓
 Rescaling
-     ↓
+↓
 Convolutional Layer
-     ↓
+↓
 Max Pooling
-     ↓
+↓
 Convolutional Layer
-     ↓
+↓
 Max Pooling
-     ↓
+↓
 Convolutional Layer
-     ↓
+↓
 Max Pooling
-     ↓
+↓
 Flatten
-     ↓
+↓
 Dense Layer
-     ↓
+↓
 Dropout
-     ↓
+↓
 Output Layer
-     ↓
+↓
 15 Classes
 
-** ### Project workflow**
+### Project Workflow
 
-Plant Leaf Image 
-       ↓
+Plant Leaf Image
+↓
 Image Preprocessing
-       ↓
+↓
 Dataset Loading
-       ↓
+↓
 CNN Model
-       ↓
+↓
 Model Training
-       ↓
+↓
 Model Validation
-       ↓
+↓
 Model Evaluation
-       ↓
+↓
 New Leaf Image
-       ↓
+↓
 Disease Prediction
 
 ---
@@ -199,7 +197,6 @@ The model successfully classified the sample image as Pepper Bell Bacterial Spot
 
 ## 📁 Project Structure
 
-```text
 Plant-Disease-Detection/
 │
 ├── README.md
@@ -246,8 +243,8 @@ The notebook contains:
 
 ### Example Output
 
-```text
 Disease: Pepper__bell___Bacterial_spot
+
 Confidence: 94.64%
 
 ---
