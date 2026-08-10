@@ -284,6 +284,7 @@ The model is trained using the PlantVillage dataset and classifies plant leaf im
 **KEERTHI GORLA**
 
 B.Tech in Artificial Intelligence
+
 Vidya Jyothi Institute of Technology
 
 ---
